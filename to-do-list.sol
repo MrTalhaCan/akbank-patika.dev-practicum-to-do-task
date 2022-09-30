@@ -27,6 +27,6 @@ contract ToDoList{
     }
 
     function toggleCompleted(uint _index) external{
-        todos[_index].completed  =   !todos[_index].completed; // toggle todo "completed" property.
+        todos[_index].completed  =   !todos[_index].completed; // toggle "completed" property when call func.
     }
 } 
